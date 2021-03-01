@@ -1,0 +1,1702 @@
+[
+    {
+      "_id": "A0",
+      "nome": "Ballard Fletcher",
+      "ucs": [
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A1",
+      "nome": "Pate Lindsay",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A2",
+      "nome": "Knight Simmons",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A3",
+      "nome": "Nicole Figueroa",
+      "ucs": [
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A4",
+      "nome": "Bertie Rios",
+      "ucs": [
+        "SPLN",
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A5",
+      "nome": "Adele Tran",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A6",
+      "nome": "Lynne Sykes",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A7",
+      "nome": "Sheppard Gordon",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A8",
+      "nome": "Valarie Charles",
+      "ucs": [
+        "SPLN",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A9",
+      "nome": "Porter Kemp",
+      "ucs": [
+        "SPLN",
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A10",
+      "nome": "Mabel Benjamin",
+      "ucs": [
+        "PRC",
+        "SPLN",
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A11",
+      "nome": "Perez Strickland",
+      "ucs": [
+        "VC"
+      ]
+    },
+    {
+      "_id": "A12",
+      "nome": "Miriam West",
+      "ucs": [
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A13",
+      "nome": "Travis Hoover",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A14",
+      "nome": "Mcdonald Hurst",
+      "ucs": [
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A15",
+      "nome": "Parrish Bradford",
+      "ucs": [
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A16",
+      "nome": "Roach Malone",
+      "ucs": [
+        "PRC",
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A17",
+      "nome": "Tanisha Bolton",
+      "ucs": [
+        "CP",
+        "PRC",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A18",
+      "nome": "Dawson Wright",
+      "ucs": [
+        "VC"
+      ]
+    },
+    {
+      "_id": "A19",
+      "nome": "Griffith Whitfield",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A20",
+      "nome": "Margarita Potter",
+      "ucs": [
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A21",
+      "nome": "Christi Rowland",
+      "ucs": [
+        "PRC",
+        "CP",
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A22",
+      "nome": "Hall Sweet",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A23",
+      "nome": "Georgina Norris",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A24",
+      "nome": "Kline Stanton",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A25",
+      "nome": "Andrews Oneill",
+      "ucs": [
+        "VC",
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A26",
+      "nome": "Banks Tanner",
+      "ucs": [
+        "SPLN",
+        "VC",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A27",
+      "nome": "Guthrie Kane",
+      "ucs": [
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A28",
+      "nome": "Elliott Huff",
+      "ucs": [
+        "SPLN",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A29",
+      "nome": "Tessa Hayden",
+      "ucs": [
+        "VC",
+        "CP",
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A30",
+      "nome": "Lucas Mcintosh",
+      "ucs": [
+        "PRC",
+        "CP",
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A31",
+      "nome": "Scott Gallagher",
+      "ucs": [
+        "VC",
+        "SPLN",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A32",
+      "nome": "Lakeisha Bowen",
+      "ucs": [
+        "SPLN",
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A33",
+      "nome": "Watts Stephens",
+      "ucs": [
+        "CP",
+        "PRC",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A34",
+      "nome": "Allyson Schultz",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A35",
+      "nome": "Glover Vinson",
+      "ucs": [
+        "VC",
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A36",
+      "nome": "Dotson Santos",
+      "ucs": [
+        "VC",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A37",
+      "nome": "Betsy Holder",
+      "ucs": [
+        "VC",
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A38",
+      "nome": "Sharpe Arnold",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A39",
+      "nome": "Vicki Huber",
+      "ucs": [
+        "VC"
+      ]
+    },
+    {
+      "_id": "A40",
+      "nome": "Terra Kramer",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A41",
+      "nome": "Hilary Patrick",
+      "ucs": [
+        "VC",
+        "PRC",
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A42",
+      "nome": "Hopper Craft",
+      "ucs": [
+        "VC",
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A43",
+      "nome": "Swanson Singleton",
+      "ucs": [
+        "VC"
+      ]
+    },
+    {
+      "_id": "A44",
+      "nome": "Briana Gray",
+      "ucs": [
+        "CP",
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A45",
+      "nome": "Rowena Quinn",
+      "ucs": [
+        "PRC",
+        "CP",
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A46",
+      "nome": "Lori Rhodes",
+      "ucs": [
+        "VC"
+      ]
+    },
+    {
+      "_id": "A47",
+      "nome": "Maricela Kelly",
+      "ucs": [
+        "VC",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A48",
+      "nome": "Mcintyre Sharp",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A49",
+      "nome": "Rosa Shepard",
+      "ucs": [
+        "CP",
+        "VC",
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A50",
+      "nome": "Angelique Sellers",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A51",
+      "nome": "Ashley Fuller",
+      "ucs": [
+        "VC",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A52",
+      "nome": "Malinda Battle",
+      "ucs": [
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A53",
+      "nome": "Luz England",
+      "ucs": [
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A54",
+      "nome": "Sheree Meyer",
+      "ucs": [
+        "VC",
+        "SPLN",
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A55",
+      "nome": "Earlene Fitzgerald",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A56",
+      "nome": "Claudine Castro",
+      "ucs": [
+        "VC"
+      ]
+    },
+    {
+      "_id": "A57",
+      "nome": "Harriett Rodgers",
+      "ucs": [
+        "PRC",
+        "CP",
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A58",
+      "nome": "Penny Horton",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "PRC",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A59",
+      "nome": "Wilcox Mcfadden",
+      "ucs": [
+        "SPLN",
+        "PRC",
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A60",
+      "nome": "Noble Miranda",
+      "ucs": [
+        "VC",
+        "CP",
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A61",
+      "nome": "Effie Jackson",
+      "ucs": [
+        "CP",
+        "VC",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A62",
+      "nome": "Lynnette Maxwell",
+      "ucs": [
+        "VC"
+      ]
+    },
+    {
+      "_id": "A63",
+      "nome": "Tia Carter",
+      "ucs": [
+        "PRC",
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A64",
+      "nome": "Candice Paul",
+      "ucs": [
+        "VC",
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A65",
+      "nome": "Queen Logan",
+      "ucs": [
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A66",
+      "nome": "Harris Hebert",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A67",
+      "nome": "Gentry Wilkerson",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A68",
+      "nome": "Mcgowan Robinson",
+      "ucs": [
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A69",
+      "nome": "Peterson Hill",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A70",
+      "nome": "Melba Flowers",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A71",
+      "nome": "Susan Mueller",
+      "ucs": [
+        "SPLN",
+        "VC",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A72",
+      "nome": "Beck Mcintyre",
+      "ucs": [
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A73",
+      "nome": "Quinn Bush",
+      "ucs": [
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A74",
+      "nome": "Jane Mccullough",
+      "ucs": [
+        "VC"
+      ]
+    },
+    {
+      "_id": "A75",
+      "nome": "Corina Conway",
+      "ucs": [
+        "VC",
+        "PRC",
+        "SPLN",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A76",
+      "nome": "Aileen Vazquez",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A77",
+      "nome": "Shelly Brennan",
+      "ucs": [
+        "SPLN",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A78",
+      "nome": "Ingram Beasley",
+      "ucs": [
+        "PRC",
+        "VC",
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A79",
+      "nome": "Trevino Macias",
+      "ucs": [
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A80",
+      "nome": "Alice Weber",
+      "ucs": [
+        "SPLN",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A81",
+      "nome": "Kristie Oneal",
+      "ucs": [
+        "PRC",
+        "SPLN",
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A82",
+      "nome": "Barbara Cantrell",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A83",
+      "nome": "Leona Morrow",
+      "ucs": [
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A84",
+      "nome": "Schultz Jennings",
+      "ucs": [
+        "VC"
+      ]
+    },
+    {
+      "_id": "A85",
+      "nome": "Karla Townsend",
+      "ucs": [
+        "PRC",
+        "CP",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A86",
+      "nome": "Sharon Parsons",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A87",
+      "nome": "Deanne Emerson",
+      "ucs": [
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A88",
+      "nome": "Gross Ayers",
+      "ucs": [
+        "CP",
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A89",
+      "nome": "Susana Atkins",
+      "ucs": [
+        "PRC",
+        "CP",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A90",
+      "nome": "Felecia Espinoza",
+      "ucs": [
+        "CP",
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A91",
+      "nome": "Howe Daugherty",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A92",
+      "nome": "Obrien Avila",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A93",
+      "nome": "Julia Garcia",
+      "ucs": [
+        "PRC",
+        "CP",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A94",
+      "nome": "Manning Heath",
+      "ucs": [
+        "PRC",
+        "CP",
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A95",
+      "nome": "Ferguson Britt",
+      "ucs": [
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A96",
+      "nome": "Alford Nash",
+      "ucs": [
+        "SPLN",
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A97",
+      "nome": "Workman Ryan",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A98",
+      "nome": "Riddle Stafford",
+      "ucs": [
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A99",
+      "nome": "Eddie Dawson",
+      "ucs": [
+        "CP",
+        "VC",
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A100",
+      "nome": "Shauna Cook",
+      "ucs": [
+        "PRC",
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A101",
+      "nome": "Rosanna Morris",
+      "ucs": [
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A102",
+      "nome": "Claire Decker",
+      "ucs": [
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A103",
+      "nome": "Adriana Duncan",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A104",
+      "nome": "Johnnie Wynn",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A105",
+      "nome": "Roslyn Moran",
+      "ucs": [
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A106",
+      "nome": "Verna Cole",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A107",
+      "nome": "Faye Kirk",
+      "ucs": [
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A108",
+      "nome": "Lacey Stuart",
+      "ucs": [
+        "CP",
+        "VC",
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A109",
+      "nome": "Bright Haley",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A110",
+      "nome": "Chaney Reed",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A111",
+      "nome": "Ava Barker",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A112",
+      "nome": "Miriam Holland",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A113",
+      "nome": "Rosella Herman",
+      "ucs": [
+        "VC",
+        "SPLN",
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A114",
+      "nome": "Monroe Berger",
+      "ucs": [
+        "CP",
+        "VC",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A115",
+      "nome": "Contreras Sharpe",
+      "ucs": [
+        "VC",
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A116",
+      "nome": "Munoz Brady",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A117",
+      "nome": "Horne Lawson",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A118",
+      "nome": "Merrill Cunningham",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A119",
+      "nome": "Castaneda Lewis",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A120",
+      "nome": "Duran Arnold",
+      "ucs": [
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A121",
+      "nome": "Jean Cameron",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A122",
+      "nome": "Cara Oliver",
+      "ucs": [
+        "PRC",
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A123",
+      "nome": "Melba Tucker",
+      "ucs": [
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A124",
+      "nome": "Desiree Cortez",
+      "ucs": [
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A125",
+      "nome": "Agnes Best",
+      "ucs": [
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A126",
+      "nome": "Carmen Bullock",
+      "ucs": [
+        "SPLN",
+        "PRC",
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A127",
+      "nome": "Klein Mcgowan",
+      "ucs": [
+        "SPLN",
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A128",
+      "nome": "Berta Hood",
+      "ucs": [
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A129",
+      "nome": "Mildred Hodge",
+      "ucs": [
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A130",
+      "nome": "Millicent Wooten",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A131",
+      "nome": "Bradley Logan",
+      "ucs": [
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A132",
+      "nome": "Lillian Olsen",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A133",
+      "nome": "Mathews Donovan",
+      "ucs": [
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A134",
+      "nome": "Staci Carr",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A135",
+      "nome": "Wilkinson Gamble",
+      "ucs": [
+        "SPLN",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A136",
+      "nome": "Lizzie Spencer",
+      "ucs": [
+        "PRC",
+        "CP",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A137",
+      "nome": "Jill Daniels",
+      "ucs": [
+        "PRC",
+        "SPLN",
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A138",
+      "nome": "Fisher Pickett",
+      "ucs": [
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A139",
+      "nome": "Alexandra Holden",
+      "ucs": [
+        "VC",
+        "SPLN",
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A140",
+      "nome": "King Everett",
+      "ucs": [
+        "VC",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A141",
+      "nome": "Houston Landry",
+      "ucs": [
+        "PRC",
+        "SPLN",
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A142",
+      "nome": "Vazquez Alvarado",
+      "ucs": [
+        "PRC",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A143",
+      "nome": "Travis Jones",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A144",
+      "nome": "Mann Mckenzie",
+      "ucs": [
+        "PRC",
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A145",
+      "nome": "Stacie Salas",
+      "ucs": [
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A146",
+      "nome": "Fanny Craig",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A147",
+      "nome": "Gilda Rodriguez",
+      "ucs": [
+        "VC",
+        "SPLN",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A148",
+      "nome": "Lynda Levine",
+      "ucs": [
+        "VC",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A149",
+      "nome": "Ratliff Brown",
+      "ucs": [
+        "VC",
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A150",
+      "nome": "Celina Gay",
+      "ucs": [
+        "PRC",
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A151",
+      "nome": "Simpson David",
+      "ucs": [
+        "VC",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A152",
+      "nome": "Daisy Young",
+      "ucs": [
+        "VC",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A153",
+      "nome": "Hallie Simon",
+      "ucs": [
+        "VC",
+        "SPLN",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A154",
+      "nome": "Woodward Griffin",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "PRC",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A155",
+      "nome": "Delgado Heath",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A156",
+      "nome": "Morgan Britt",
+      "ucs": [
+        "CP",
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A157",
+      "nome": "Nona Pate",
+      "ucs": [
+        "SPLN",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A158",
+      "nome": "Faulkner Langley",
+      "ucs": [
+        "VC",
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A159",
+      "nome": "Leah Bartlett",
+      "ucs": [
+        "PRC",
+        "SPLN",
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A160",
+      "nome": "Rita Cabrera",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A161",
+      "nome": "Amy Rutledge",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A162",
+      "nome": "Krystal Kerr",
+      "ucs": [
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A163",
+      "nome": "Whitney Tanner",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A164",
+      "nome": "Mcpherson Pugh",
+      "ucs": [
+        "SPLN",
+        "VC",
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A165",
+      "nome": "Bryant Wolfe",
+      "ucs": [
+        "VC",
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A166",
+      "nome": "Beatrice Walton",
+      "ucs": [
+        "SPLN",
+        "CP",
+        "PRC",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A167",
+      "nome": "Hutchinson Zimmerman",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A168",
+      "nome": "Randi Randolph",
+      "ucs": [
+        "VC",
+        "PRC",
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A169",
+      "nome": "Britt Mcpherson",
+      "ucs": [
+        "VC",
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A170",
+      "nome": "Glover Bean",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "PRC",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A171",
+      "nome": "Ware Burnett",
+      "ucs": [
+        "CP",
+        "VC",
+        "SPLN",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A172",
+      "nome": "Shelton Richardson",
+      "ucs": [
+        "VC",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A173",
+      "nome": "Brandie Bowman",
+      "ucs": [
+        "VC",
+        "PRC",
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A174",
+      "nome": "Wilson Glass",
+      "ucs": [
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A175",
+      "nome": "Newton Knapp",
+      "ucs": [
+        "VC",
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A176",
+      "nome": "Drake Osborne",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A177",
+      "nome": "Marva Owen",
+      "ucs": [
+        "SPLN",
+        "PRC",
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A178",
+      "nome": "Christi Grimes",
+      "ucs": [
+        "PRC",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A179",
+      "nome": "Baker Hudson",
+      "ucs": [
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A180",
+      "nome": "Richard Kaufman",
+      "ucs": [
+        "VC"
+      ]
+    },
+    {
+      "_id": "A181",
+      "nome": "Carla Jordan",
+      "ucs": [
+        "CP"
+      ]
+    },
+    {
+      "_id": "A182",
+      "nome": "Mayo Petty",
+      "ucs": [
+        "SPLN",
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A183",
+      "nome": "Mollie Byrd",
+      "ucs": [
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A184",
+      "nome": "Avery Richmond",
+      "ucs": [
+        "VC",
+        "CP",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A185",
+      "nome": "Hines Jacobs",
+      "ucs": [
+        "CP",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A186",
+      "nome": "Pierce Long",
+      "ucs": [
+        "CP",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A187",
+      "nome": "Anita Melton",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A188",
+      "nome": "Latonya Carney",
+      "ucs": [
+        "PRC",
+        "SPLN",
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A189",
+      "nome": "Gena Aguirre",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A190",
+      "nome": "Jasmine Oneill",
+      "ucs": [
+        "VC",
+        "PRC"
+      ]
+    },
+    {
+      "_id": "A191",
+      "nome": "Wanda Richards",
+      "ucs": [
+        "PRC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A192",
+      "nome": "Rosa Moody",
+      "ucs": [
+        "SPLN",
+        "VC",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A193",
+      "nome": "Ginger Walls",
+      "ucs": [
+        "CP",
+        "SPLN",
+        "PRC",
+        "VC"
+      ]
+    },
+    {
+      "_id": "A194",
+      "nome": "Stokes Cummings",
+      "ucs": [
+        "PRC",
+        "SPLN",
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A195",
+      "nome": "Jodie Mcfarland",
+      "ucs": [
+        "SPLN",
+        "VC",
+        "PRC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A196",
+      "nome": "Hopkins Harper",
+      "ucs": [
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A197",
+      "nome": "Espinoza Gentry",
+      "ucs": [
+        "VC",
+        "CP"
+      ]
+    },
+    {
+      "_id": "A198",
+      "nome": "Kellie Walsh",
+      "ucs": [
+        "CP",
+        "VC",
+        "SPLN"
+      ]
+    },
+    {
+      "_id": "A199",
+      "nome": "Vickie Mayo",
+      "ucs": [
+        "SPLN"
+      ]
+    }
+  ]

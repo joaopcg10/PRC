@@ -1,0 +1,22 @@
+[
+    {
+        "_id": "UC1",
+        "nome": "PRC",
+        "docente": "D1"
+    },
+    {
+        "_id": "UC2",
+        "nome": "SPLN",
+        "docente": "D2"
+    },
+    {
+        "_id": "UC3",
+        "nome": "VC",
+        "docente": "D3"
+    },
+    {
+        "_id": "UC4",
+        "nome": "CP",
+        "docente": "D4"
+    }
+]

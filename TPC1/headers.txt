@@ -1,0 +1,29 @@
+:ensina rdf:type owl:ObjectProperty ;
+        owl:inverseOf :ensinadaPor ;
+        rdfs:domain :Docente ;
+        rdfs:range :UnidadeCurricular .
+:frequenta rdf:type owl:ObjectProperty ;
+           owl:inverseOf :frequentadaPor ;
+           rdfs:domain :Aluno ;
+           rdfs:range :UnidadeCurricular .
+:alunoDe rdf:type owl:ObjectProperty ;
+          owl:inverseOf :professorDe .
+:ensinadaPor rdf:type owl:ObjectProperty .
+:frequentadaPor rdf:type owl:ObjectProperty .
+:professorDe rdf:type owl:ObjectProperty ;
+              owl:propertyChainAxiom ( :ensina :frequentadaPor ) .
+
+:nome rdf:type owl:DatatypeProperty .
+:idade rdf:type owl:DatatypeProperty .
+
+:Aluno rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :frequenta ;
+                         owl:someValuesFrom :UnidadeCurricular
+                       ] .
+:Docente rdf:type owl:Class .
+:UnidadeCurricular rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :ensinadaPor ;
+                             owl:someValuesFrom :Docente
+                           ] .

@@ -1,0 +1,241 @@
+:ensina rdf:type owl:ObjectProperty ;
+        owl:inverseOf :ensinadaPor ;
+        rdfs:domain :Docente ;
+        rdfs:range :UnidadeCurricular .
+:frequenta rdf:type owl:ObjectProperty ;
+           owl:inverseOf :frequentadaPor ;
+           rdfs:domain :Aluno ;
+           rdfs:range :UnidadeCurricular .
+:alunoDe rdf:type owl:ObjectProperty ;
+          owl:inverseOf :professorDe .
+:ensinadaPor rdf:type owl:ObjectProperty .
+:frequentadaPor rdf:type owl:ObjectProperty .
+:professorDe rdf:type owl:ObjectProperty ;
+              owl:propertyChainAxiom ( :ensina :frequentadaPor ) .
+
+:nome rdf:type owl:DatatypeProperty .
+:idade rdf:type owl:DatatypeProperty .
+
+:Aluno rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :frequenta ;
+                         owl:someValuesFrom :UnidadeCurricular
+                       ] .
+:Docente rdf:type owl:Class .
+:UnidadeCurricular rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :ensinadaPor ;
+                             owl:someValuesFrom :Docente
+                           ] .
+
+:UC1 rdf:type owl:namedIndividual , :UnidadeCurricular ; :nome "PRC" ; :ensinadaPor :D1 .
+:UC2 rdf:type owl:namedIndividual , :UnidadeCurricular ; :nome "SPLN" ; :ensinadaPor :D2 .
+:UC3 rdf:type owl:namedIndividual , :UnidadeCurricular ; :nome "VC" ; :ensinadaPor :D3 .
+:UC4 rdf:type owl:namedIndividual , :UnidadeCurricular ; :nome "CP" ; :ensinadaPor :D4 .
+
+:D1 rdf:type owl:namedIndividual , :Docente ; :nome "José Carlos Leite Ramalho" .
+:D2 rdf:type owl:namedIndividual , :Docente ; :nome "José João Antunes Guimarães Dias Almeida" .
+:D3 rdf:type owl:namedIndividual , :Docente ; :nome "Cristina Manuela Peixoto Santos" .
+:D4 rdf:type owl:namedIndividual , :Docente ; :nome "João Luís Ferreira Sobral" .
+
+:A0 rdf:type owl:NamedIndividual , :Aluno ; :nome "Ballard Fletcher" ; :frequenta ":CP :PRC .
+:A1 rdf:type owl:NamedIndividual , :Aluno ; :nome "Pate Lindsay" ; :frequenta ":PRC .
+:A2 rdf:type owl:NamedIndividual , :Aluno ; :nome "Knight Simmons" ; :frequenta ":CP :SPLN :VC .
+:A3 rdf:type owl:NamedIndividual , :Aluno ; :nome "Nicole Figueroa" ; :frequenta ":VC :CP .
+:A4 rdf:type owl:NamedIndividual , :Aluno ; :nome "Bertie Rios" ; :frequenta ":SPLN :CP :VC .
+:A5 rdf:type owl:NamedIndividual , :Aluno ; :nome "Adele Tran" ; :frequenta ":PRC .
+:A6 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lynne Sykes" ; :frequenta ":CP .
+:A7 rdf:type owl:NamedIndividual , :Aluno ; :nome "Sheppard Gordon" ; :frequenta ":PRC .
+:A8 rdf:type owl:NamedIndividual , :Aluno ; :nome "Valarie Charles" ; :frequenta ":SPLN :CP .
+:A9 rdf:type owl:NamedIndividual , :Aluno ; :nome "Porter Kemp" ; :frequenta ":SPLN :CP :VC .
+:A10 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mabel Benjamin" ; :frequenta ":PRC :SPLN :VC :CP .
+:A11 rdf:type owl:NamedIndividual , :Aluno ; :nome "Perez Strickland" ; :frequenta ":VC .
+:A12 rdf:type owl:NamedIndividual , :Aluno ; :nome "Miriam West" ; :frequenta ":SPLN :VC .
+:A13 rdf:type owl:NamedIndividual , :Aluno ; :nome "Travis Hoover" ; :frequenta ":CP .
+:A14 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mcdonald Hurst" ; :frequenta ":VC :SPLN .
+:A15 rdf:type owl:NamedIndividual , :Aluno ; :nome "Parrish Bradford" ; :frequenta ":SPLN :VC .
+:A16 rdf:type owl:NamedIndividual , :Aluno ; :nome "Roach Malone" ; :frequenta ":PRC :VC :SPLN .
+:A17 rdf:type owl:NamedIndividual , :Aluno ; :nome "Tanisha Bolton" ; :frequenta ":CP :PRC :SPLN :VC .
+:A18 rdf:type owl:NamedIndividual , :Aluno ; :nome "Dawson Wright" ; :frequenta ":VC .
+:A19 rdf:type owl:NamedIndividual , :Aluno ; :nome "Griffith Whitfield" ; :frequenta ":CP .
+:A20 rdf:type owl:NamedIndividual , :Aluno ; :nome "Margarita Potter" ; :frequenta ":PRC :SPLN .
+:A21 rdf:type owl:NamedIndividual , :Aluno ; :nome "Christi Rowland" ; :frequenta ":PRC :CP :VC :SPLN .
+:A22 rdf:type owl:NamedIndividual , :Aluno ; :nome "Hall Sweet" ; :frequenta ":CP .
+:A23 rdf:type owl:NamedIndividual , :Aluno ; :nome "Georgina Norris" ; :frequenta ":CP .
+:A24 rdf:type owl:NamedIndividual , :Aluno ; :nome "Kline Stanton" ; :frequenta ":CP .
+:A25 rdf:type owl:NamedIndividual , :Aluno ; :nome "Andrews Oneill" ; :frequenta ":VC :CP :SPLN .
+:A26 rdf:type owl:NamedIndividual , :Aluno ; :nome "Banks Tanner" ; :frequenta ":SPLN :VC :PRC :CP .
+:A27 rdf:type owl:NamedIndividual , :Aluno ; :nome "Guthrie Kane" ; :frequenta ":VC :CP .
+:A28 rdf:type owl:NamedIndividual , :Aluno ; :nome "Elliott Huff" ; :frequenta ":SPLN :PRC :CP .
+:A29 rdf:type owl:NamedIndividual , :Aluno ; :nome "Tessa Hayden" ; :frequenta ":VC :CP :PRC :SPLN .
+:A30 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lucas Mcintosh" ; :frequenta ":PRC :CP :VC :SPLN .
+:A31 rdf:type owl:NamedIndividual , :Aluno ; :nome "Scott Gallagher" ; :frequenta ":VC :SPLN :CP .
+:A32 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lakeisha Bowen" ; :frequenta ":SPLN :CP :VC .
+:A33 rdf:type owl:NamedIndividual , :Aluno ; :nome "Watts Stephens" ; :frequenta ":CP :PRC :SPLN :VC .
+:A34 rdf:type owl:NamedIndividual , :Aluno ; :nome "Allyson Schultz" ; :frequenta ":CP :SPLN :PRC .
+:A35 rdf:type owl:NamedIndividual , :Aluno ; :nome "Glover Vinson" ; :frequenta ":VC :CP :SPLN .
+:A36 rdf:type owl:NamedIndividual , :Aluno ; :nome "Dotson Santos" ; :frequenta ":VC :SPLN :PRC .
+:A37 rdf:type owl:NamedIndividual , :Aluno ; :nome "Betsy Holder" ; :frequenta ":VC :PRC :SPLN .
+:A38 rdf:type owl:NamedIndividual , :Aluno ; :nome "Sharpe Arnold" ; :frequenta ":SPLN .
+:A39 rdf:type owl:NamedIndividual , :Aluno ; :nome "Vicki Huber" ; :frequenta ":VC .
+:A40 rdf:type owl:NamedIndividual , :Aluno ; :nome "Terra Kramer" ; :frequenta ":CP .
+:A41 rdf:type owl:NamedIndividual , :Aluno ; :nome "Hilary Patrick" ; :frequenta ":VC :PRC :CP :SPLN .
+:A42 rdf:type owl:NamedIndividual , :Aluno ; :nome "Hopper Craft" ; :frequenta ":VC :PRC :SPLN .
+:A43 rdf:type owl:NamedIndividual , :Aluno ; :nome "Swanson Singleton" ; :frequenta ":VC .
+:A44 rdf:type owl:NamedIndividual , :Aluno ; :nome "Briana Gray" ; :frequenta ":CP :VC :SPLN .
+:A45 rdf:type owl:NamedIndividual , :Aluno ; :nome "Rowena Quinn" ; :frequenta ":PRC :CP :VC :SPLN .
+:A46 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lori Rhodes" ; :frequenta ":VC .
+:A47 rdf:type owl:NamedIndividual , :Aluno ; :nome "Maricela Kelly" ; :frequenta ":VC :PRC :CP .
+:A48 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mcintyre Sharp" ; :frequenta ":SPLN .
+:A49 rdf:type owl:NamedIndividual , :Aluno ; :nome "Rosa Shepard" ; :frequenta ":CP :VC :PRC :SPLN .
+:A50 rdf:type owl:NamedIndividual , :Aluno ; :nome "Angelique Sellers" ; :frequenta ":PRC .
+:A51 rdf:type owl:NamedIndividual , :Aluno ; :nome "Ashley Fuller" ; :frequenta ":VC :SPLN :PRC .
+:A52 rdf:type owl:NamedIndividual , :Aluno ; :nome "Malinda Battle" ; :frequenta ":PRC :CP .
+:A53 rdf:type owl:NamedIndividual , :Aluno ; :nome "Luz England" ; :frequenta ":VC :SPLN .
+:A54 rdf:type owl:NamedIndividual , :Aluno ; :nome "Sheree Meyer" ; :frequenta ":VC :SPLN :CP :PRC .
+:A55 rdf:type owl:NamedIndividual , :Aluno ; :nome "Earlene Fitzgerald" ; :frequenta ":CP .
+:A56 rdf:type owl:NamedIndividual , :Aluno ; :nome "Claudine Castro" ; :frequenta ":VC .
+:A57 rdf:type owl:NamedIndividual , :Aluno ; :nome "Harriett Rodgers" ; :frequenta ":PRC :CP :VC :SPLN .
+:A58 rdf:type owl:NamedIndividual , :Aluno ; :nome "Penny Horton" ; :frequenta ":CP :SPLN :PRC :VC .
+:A59 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wilcox Mcfadden" ; :frequenta ":SPLN :PRC :CP :VC .
+:A60 rdf:type owl:NamedIndividual , :Aluno ; :nome "Noble Miranda" ; :frequenta ":VC :CP :PRC :SPLN .
+:A61 rdf:type owl:NamedIndividual , :Aluno ; :nome "Effie Jackson" ; :frequenta ":CP :VC :SPLN :PRC .
+:A62 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lynnette Maxwell" ; :frequenta ":VC .
+:A63 rdf:type owl:NamedIndividual , :Aluno ; :nome "Tia Carter" ; :frequenta ":PRC :VC :CP .
+:A64 rdf:type owl:NamedIndividual , :Aluno ; :nome "Candice Paul" ; :frequenta ":VC :CP :SPLN .
+:A65 rdf:type owl:NamedIndividual , :Aluno ; :nome "Queen Logan" ; :frequenta ":CP :PRC .
+:A66 rdf:type owl:NamedIndividual , :Aluno ; :nome "Harris Hebert" ; :frequenta ":CP :SPLN :VC .
+:A67 rdf:type owl:NamedIndividual , :Aluno ; :nome "Gentry Wilkerson" ; :frequenta ":CP :SPLN :VC :PRC .
+:A68 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mcgowan Robinson" ; :frequenta ":VC :SPLN .
+:A69 rdf:type owl:NamedIndividual , :Aluno ; :nome "Peterson Hill" ; :frequenta ":CP :SPLN :PRC .
+:A70 rdf:type owl:NamedIndividual , :Aluno ; :nome "Melba Flowers" ; :frequenta ":CP .
+:A71 rdf:type owl:NamedIndividual , :Aluno ; :nome "Susan Mueller" ; :frequenta ":SPLN :VC :PRC :CP .
+:A72 rdf:type owl:NamedIndividual , :Aluno ; :nome "Beck Mcintyre" ; :frequenta ":SPLN :VC .
+:A73 rdf:type owl:NamedIndividual , :Aluno ; :nome "Quinn Bush" ; :frequenta ":CP :PRC .
+:A74 rdf:type owl:NamedIndividual , :Aluno ; :nome "Jane Mccullough" ; :frequenta ":VC .
+:A75 rdf:type owl:NamedIndividual , :Aluno ; :nome "Corina Conway" ; :frequenta ":VC :PRC :SPLN :CP .
+:A76 rdf:type owl:NamedIndividual , :Aluno ; :nome "Aileen Vazquez" ; :frequenta ":SPLN .
+:A77 rdf:type owl:NamedIndividual , :Aluno ; :nome "Shelly Brennan" ; :frequenta ":SPLN :PRC :CP .
+:A78 rdf:type owl:NamedIndividual , :Aluno ; :nome "Ingram Beasley" ; :frequenta ":PRC :VC :CP :SPLN .
+:A79 rdf:type owl:NamedIndividual , :Aluno ; :nome "Trevino Macias" ; :frequenta ":SPLN :VC .
+:A80 rdf:type owl:NamedIndividual , :Aluno ; :nome "Alice Weber" ; :frequenta ":SPLN :CP .
+:A81 rdf:type owl:NamedIndividual , :Aluno ; :nome "Kristie Oneal" ; :frequenta ":PRC :SPLN :VC :CP .
+:A82 rdf:type owl:NamedIndividual , :Aluno ; :nome "Barbara Cantrell" ; :frequenta ":CP :SPLN :VC :PRC .
+:A83 rdf:type owl:NamedIndividual , :Aluno ; :nome "Leona Morrow" ; :frequenta ":PRC :SPLN .
+:A84 rdf:type owl:NamedIndividual , :Aluno ; :nome "Schultz Jennings" ; :frequenta ":VC .
+:A85 rdf:type owl:NamedIndividual , :Aluno ; :nome "Karla Townsend" ; :frequenta ":PRC :CP :SPLN :VC .
+:A86 rdf:type owl:NamedIndividual , :Aluno ; :nome "Sharon Parsons" ; :frequenta ":CP .
+:A87 rdf:type owl:NamedIndividual , :Aluno ; :nome "Deanne Emerson" ; :frequenta ":CP :SPLN .
+:A88 rdf:type owl:NamedIndividual , :Aluno ; :nome "Gross Ayers" ; :frequenta ":CP :VC :PRC .
+:A89 rdf:type owl:NamedIndividual , :Aluno ; :nome "Susana Atkins" ; :frequenta ":PRC :CP :SPLN :VC .
+:A90 rdf:type owl:NamedIndividual , :Aluno ; :nome "Felecia Espinoza" ; :frequenta ":CP :PRC :SPLN .
+:A91 rdf:type owl:NamedIndividual , :Aluno ; :nome "Howe Daugherty" ; :frequenta ":PRC .
+:A92 rdf:type owl:NamedIndividual , :Aluno ; :nome "Obrien Avila" ; :frequenta ":PRC .
+:A93 rdf:type owl:NamedIndividual , :Aluno ; :nome "Julia Garcia" ; :frequenta ":PRC :CP :SPLN :VC .
+:A94 rdf:type owl:NamedIndividual , :Aluno ; :nome "Manning Heath" ; :frequenta ":PRC :CP :VC :SPLN .
+:A95 rdf:type owl:NamedIndividual , :Aluno ; :nome "Ferguson Britt" ; :frequenta ":VC :PRC .
+:A96 rdf:type owl:NamedIndividual , :Aluno ; :nome "Alford Nash" ; :frequenta ":SPLN :CP :PRC .
+:A97 rdf:type owl:NamedIndividual , :Aluno ; :nome "Workman Ryan" ; :frequenta ":PRC .
+:A98 rdf:type owl:NamedIndividual , :Aluno ; :nome "Riddle Stafford" ; :frequenta ":CP :SPLN .
+:A99 rdf:type owl:NamedIndividual , :Aluno ; :nome "Eddie Dawson" ; :frequenta ":CP :VC :PRC :SPLN .
+:A100 rdf:type owl:NamedIndividual , :Aluno ; :nome "Shauna Cook" ; :frequenta ":PRC :CP :SPLN .
+:A101 rdf:type owl:NamedIndividual , :Aluno ; :nome "Rosanna Morris" ; :frequenta ":PRC :SPLN .
+:A102 rdf:type owl:NamedIndividual , :Aluno ; :nome "Claire Decker" ; :frequenta ":PRC :SPLN .
+:A103 rdf:type owl:NamedIndividual , :Aluno ; :nome "Adriana Duncan" ; :frequenta ":SPLN .
+:A104 rdf:type owl:NamedIndividual , :Aluno ; :nome "Johnnie Wynn" ; :frequenta ":CP .
+:A105 rdf:type owl:NamedIndividual , :Aluno ; :nome "Roslyn Moran" ; :frequenta ":PRC :CP .
+:A106 rdf:type owl:NamedIndividual , :Aluno ; :nome "Verna Cole" ; :frequenta ":CP :SPLN :VC :PRC .
+:A107 rdf:type owl:NamedIndividual , :Aluno ; :nome "Faye Kirk" ; :frequenta ":VC :PRC .
+:A108 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lacey Stuart" ; :frequenta ":CP :VC :PRC :SPLN .
+:A109 rdf:type owl:NamedIndividual , :Aluno ; :nome "Bright Haley" ; :frequenta ":CP :SPLN :VC .
+:A110 rdf:type owl:NamedIndividual , :Aluno ; :nome "Chaney Reed" ; :frequenta ":PRC .
+:A111 rdf:type owl:NamedIndividual , :Aluno ; :nome "Ava Barker" ; :frequenta ":SPLN .
+:A112 rdf:type owl:NamedIndividual , :Aluno ; :nome "Miriam Holland" ; :frequenta ":PRC .
+:A113 rdf:type owl:NamedIndividual , :Aluno ; :nome "Rosella Herman" ; :frequenta ":VC :SPLN :CP :PRC .
+:A114 rdf:type owl:NamedIndividual , :Aluno ; :nome "Monroe Berger" ; :frequenta ":CP :VC :SPLN :PRC .
+:A115 rdf:type owl:NamedIndividual , :Aluno ; :nome "Contreras Sharpe" ; :frequenta ":VC :CP :PRC .
+:A116 rdf:type owl:NamedIndividual , :Aluno ; :nome "Munoz Brady" ; :frequenta ":SPLN .
+:A117 rdf:type owl:NamedIndividual , :Aluno ; :nome "Horne Lawson" ; :frequenta ":PRC .
+:A118 rdf:type owl:NamedIndividual , :Aluno ; :nome "Merrill Cunningham" ; :frequenta ":CP :SPLN :PRC .
+:A119 rdf:type owl:NamedIndividual , :Aluno ; :nome "Castaneda Lewis" ; :frequenta ":SPLN .
+:A120 rdf:type owl:NamedIndividual , :Aluno ; :nome "Duran Arnold" ; :frequenta ":PRC .
+:A121 rdf:type owl:NamedIndividual , :Aluno ; :nome "Jean Cameron" ; :frequenta ":CP .
+:A122 rdf:type owl:NamedIndividual , :Aluno ; :nome "Cara Oliver" ; :frequenta ":PRC :CP :SPLN .
+:A123 rdf:type owl:NamedIndividual , :Aluno ; :nome "Melba Tucker" ; :frequenta ":PRC :CP .
+:A124 rdf:type owl:NamedIndividual , :Aluno ; :nome "Desiree Cortez" ; :frequenta ":VC :PRC .
+:A125 rdf:type owl:NamedIndividual , :Aluno ; :nome "Agnes Best" ; :frequenta ":PRC :CP .
+:A126 rdf:type owl:NamedIndividual , :Aluno ; :nome "Carmen Bullock" ; :frequenta ":SPLN :PRC :CP :VC .
+:A127 rdf:type owl:NamedIndividual , :Aluno ; :nome "Klein Mcgowan" ; :frequenta ":SPLN :CP :VC .
+:A128 rdf:type owl:NamedIndividual , :Aluno ; :nome "Berta Hood" ; :frequenta ":SPLN :PRC .
+:A129 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mildred Hodge" ; :frequenta ":CP :VC .
+:A130 rdf:type owl:NamedIndividual , :Aluno ; :nome "Millicent Wooten" ; :frequenta ":CP .
+:A131 rdf:type owl:NamedIndividual , :Aluno ; :nome "Bradley Logan" ; :frequenta ":VC :PRC .
+:A132 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lillian Olsen" ; :frequenta ":CP .
+:A133 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mathews Donovan" ; :frequenta ":PRC :CP .
+:A134 rdf:type owl:NamedIndividual , :Aluno ; :nome "Staci Carr" ; :frequenta ":CP :SPLN :PRC .
+:A135 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wilkinson Gamble" ; :frequenta ":SPLN :PRC :CP .
+:A136 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lizzie Spencer" ; :frequenta ":PRC :CP :SPLN :VC .
+:A137 rdf:type owl:NamedIndividual , :Aluno ; :nome "Jill Daniels" ; :frequenta ":PRC :SPLN :VC :CP .
+:A138 rdf:type owl:NamedIndividual , :Aluno ; :nome "Fisher Pickett" ; :frequenta ":CP :PRC .
+:A139 rdf:type owl:NamedIndividual , :Aluno ; :nome "Alexandra Holden" ; :frequenta ":VC :SPLN :CP :PRC .
+:A140 rdf:type owl:NamedIndividual , :Aluno ; :nome "King Everett" ; :frequenta ":VC :SPLN :PRC .
+:A141 rdf:type owl:NamedIndividual , :Aluno ; :nome "Houston Landry" ; :frequenta ":PRC :SPLN :CP :VC .
+:A142 rdf:type owl:NamedIndividual , :Aluno ; :nome "Vazquez Alvarado" ; :frequenta ":PRC :SPLN :VC .
+:A143 rdf:type owl:NamedIndividual , :Aluno ; :nome "Travis Jones" ; :frequenta ":CP :SPLN :VC .
+:A144 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mann Mckenzie" ; :frequenta ":PRC :VC :CP .
+:A145 rdf:type owl:NamedIndividual , :Aluno ; :nome "Stacie Salas" ; :frequenta ":PRC :CP .
+:A146 rdf:type owl:NamedIndividual , :Aluno ; :nome "Fanny Craig" ; :frequenta ":CP .
+:A147 rdf:type owl:NamedIndividual , :Aluno ; :nome "Gilda Rodriguez" ; :frequenta ":VC :SPLN :CP .
+:A148 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lynda Levine" ; :frequenta ":VC :PRC :CP .
+:A149 rdf:type owl:NamedIndividual , :Aluno ; :nome "Ratliff Brown" ; :frequenta ":VC :CP :PRC .
+:A150 rdf:type owl:NamedIndividual , :Aluno ; :nome "Celina Gay" ; :frequenta ":PRC :CP :VC .
+:A151 rdf:type owl:NamedIndividual , :Aluno ; :nome "Simpson David" ; :frequenta ":VC :SPLN :PRC .
+:A152 rdf:type owl:NamedIndividual , :Aluno ; :nome "Daisy Young" ; :frequenta ":VC :PRC :CP .
+:A153 rdf:type owl:NamedIndividual , :Aluno ; :nome "Hallie Simon" ; :frequenta ":VC :SPLN :PRC :CP .
+:A154 rdf:type owl:NamedIndividual , :Aluno ; :nome "Woodward Griffin" ; :frequenta ":CP :SPLN :PRC :VC .
+:A155 rdf:type owl:NamedIndividual , :Aluno ; :nome "Delgado Heath" ; :frequenta ":CP .
+:A156 rdf:type owl:NamedIndividual , :Aluno ; :nome "Morgan Britt" ; :frequenta ":CP :VC :SPLN .
+:A157 rdf:type owl:NamedIndividual , :Aluno ; :nome "Nona Pate" ; :frequenta ":SPLN :PRC :CP .
+:A158 rdf:type owl:NamedIndividual , :Aluno ; :nome "Faulkner Langley" ; :frequenta ":VC :CP :PRC .
+:A159 rdf:type owl:NamedIndividual , :Aluno ; :nome "Leah Bartlett" ; :frequenta ":PRC :SPLN :VC :CP .
+:A160 rdf:type owl:NamedIndividual , :Aluno ; :nome "Rita Cabrera" ; :frequenta ":CP .
+:A161 rdf:type owl:NamedIndividual , :Aluno ; :nome "Amy Rutledge" ; :frequenta ":CP .
+:A162 rdf:type owl:NamedIndividual , :Aluno ; :nome "Krystal Kerr" ; :frequenta ":CP :PRC .
+:A163 rdf:type owl:NamedIndividual , :Aluno ; :nome "Whitney Tanner" ; :frequenta ":SPLN .
+:A164 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mcpherson Pugh" ; :frequenta ":SPLN :VC :CP :PRC .
+:A165 rdf:type owl:NamedIndividual , :Aluno ; :nome "Bryant Wolfe" ; :frequenta ":VC :CP :SPLN .
+:A166 rdf:type owl:NamedIndividual , :Aluno ; :nome "Beatrice Walton" ; :frequenta ":SPLN :CP :PRC :VC .
+:A167 rdf:type owl:NamedIndividual , :Aluno ; :nome "Hutchinson Zimmerman" ; :frequenta ":SPLN .
+:A168 rdf:type owl:NamedIndividual , :Aluno ; :nome "Randi Randolph" ; :frequenta ":VC :PRC :CP :SPLN .
+:A169 rdf:type owl:NamedIndividual , :Aluno ; :nome "Britt Mcpherson" ; :frequenta ":VC :PRC :SPLN .
+:A170 rdf:type owl:NamedIndividual , :Aluno ; :nome "Glover Bean" ; :frequenta ":CP :SPLN :PRC :VC .
+:A171 rdf:type owl:NamedIndividual , :Aluno ; :nome "Ware Burnett" ; :frequenta ":CP :VC :SPLN :PRC .
+:A172 rdf:type owl:NamedIndividual , :Aluno ; :nome "Shelton Richardson" ; :frequenta ":VC :PRC :CP .
+:A173 rdf:type owl:NamedIndividual , :Aluno ; :nome "Brandie Bowman" ; :frequenta ":VC :PRC :CP :SPLN .
+:A174 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wilson Glass" ; :frequenta ":VC :PRC .
+:A175 rdf:type owl:NamedIndividual , :Aluno ; :nome "Newton Knapp" ; :frequenta ":VC :PRC :SPLN .
+:A176 rdf:type owl:NamedIndividual , :Aluno ; :nome "Drake Osborne" ; :frequenta ":SPLN .
+:A177 rdf:type owl:NamedIndividual , :Aluno ; :nome "Marva Owen" ; :frequenta ":SPLN :PRC :CP :VC .
+:A178 rdf:type owl:NamedIndividual , :Aluno ; :nome "Christi Grimes" ; :frequenta ":PRC :VC .
+:A179 rdf:type owl:NamedIndividual , :Aluno ; :nome "Baker Hudson" ; :frequenta ":PRC :SPLN .
+:A180 rdf:type owl:NamedIndividual , :Aluno ; :nome "Richard Kaufman" ; :frequenta ":VC .
+:A181 rdf:type owl:NamedIndividual , :Aluno ; :nome "Carla Jordan" ; :frequenta ":CP .
+:A182 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mayo Petty" ; :frequenta ":SPLN :VC :PRC .
+:A183 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mollie Byrd" ; :frequenta ":CP :SPLN .
+:A184 rdf:type owl:NamedIndividual , :Aluno ; :nome "Avery Richmond" ; :frequenta ":VC :CP :PRC .
+:A185 rdf:type owl:NamedIndividual , :Aluno ; :nome "Hines Jacobs" ; :frequenta ":CP :VC .
+:A186 rdf:type owl:NamedIndividual , :Aluno ; :nome "Pierce Long" ; :frequenta ":CP :SPLN .
+:A187 rdf:type owl:NamedIndividual , :Aluno ; :nome "Anita Melton" ; :frequenta ":SPLN .
+:A188 rdf:type owl:NamedIndividual , :Aluno ; :nome "Latonya Carney" ; :frequenta ":PRC :SPLN :VC :CP .
+:A189 rdf:type owl:NamedIndividual , :Aluno ; :nome "Gena Aguirre" ; :frequenta ":SPLN .
+:A190 rdf:type owl:NamedIndividual , :Aluno ; :nome "Jasmine Oneill" ; :frequenta ":VC :PRC .
+:A191 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wanda Richards" ; :frequenta ":PRC :SPLN .
+:A192 rdf:type owl:NamedIndividual , :Aluno ; :nome "Rosa Moody" ; :frequenta ":SPLN :VC :PRC :CP .
+:A193 rdf:type owl:NamedIndividual , :Aluno ; :nome "Ginger Walls" ; :frequenta ":CP :SPLN :PRC :VC .
+:A194 rdf:type owl:NamedIndividual , :Aluno ; :nome "Stokes Cummings" ; :frequenta ":PRC :SPLN :VC :CP .
+:A195 rdf:type owl:NamedIndividual , :Aluno ; :nome "Jodie Mcfarland" ; :frequenta ":SPLN :VC :PRC :CP .
+:A196 rdf:type owl:NamedIndividual , :Aluno ; :nome "Hopkins Harper" ; :frequenta ":SPLN .
+:A197 rdf:type owl:NamedIndividual , :Aluno ; :nome "Espinoza Gentry" ; :frequenta ":VC :CP .
+:A198 rdf:type owl:NamedIndividual , :Aluno ; :nome "Kellie Walsh" ; :frequenta ":CP :VC :SPLN .
+:A199 rdf:type owl:NamedIndividual , :Aluno ; :nome "Vickie Mayo" ; :frequenta ":SPLN .
+

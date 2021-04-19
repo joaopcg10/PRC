@@ -1,0 +1,236 @@
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaF
+:mapaF rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :F ;
+          :Jan 1 ;
+          :Fev 1 ;
+          :Mar 1 ;
+          :Abr 1 ;
+          :Mai 0 ;
+          :Jun 0 ;
+          :Jul 0 ;
+          :Ago 0 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaH
+:mapaH rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :H ;
+          :Jan 0 ;
+          :Fev 0 ;
+          :Mar 0 ;
+          :Abr 0 ;
+          :Mai 0 ;
+          :Jun 0 ;
+          :Jul 0 ;
+          :Ago 0 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaI
+:mapaI rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :I ;
+          :Jan 1 ;
+          :Fev 1 ;
+          :Mar 1 ;
+          :Abr 1 ;
+          :Mai 1 ;
+          :Jun 1 ;
+          :Jul 1 ;
+          :Ago 1 ;
+          :Set 1 ;
+          :Out 1 ;
+          :Nov 1 ;
+          :Dez 1 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaL
+:mapaL rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :L ;
+          :Jan 1 ;
+          :Fev 1 ;
+          :Mar 1 ;
+          :Abr 1 ;
+          :Mai 1 ;
+          :Jun 1 ;
+          :Jul 1 ;
+          :Ago 1 ;
+          :Set 1 ;
+          :Out 1 ;
+          :Nov 1 ;
+          :Dez 1 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaM
+:mapaM rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :M ;
+          :Jan 1 ;
+          :Fev 1 ;
+          :Mar 1 ;
+          :Abr 1 ;
+          :Mai 1 ;
+          :Jun 1 ;
+          :Jul 0 ;
+          :Ago 0 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaO
+:mapaO rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :O ;
+          :Jan 1 ;
+          :Fev 1 ;
+          :Mar 1 ;
+          :Abr 1 ;
+          :Mai 1 ;
+          :Jun 1 ;
+          :Jul 1 ;
+          :Ago 1 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaP
+:mapaP rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :P ;
+          :Jan 1 ;
+          :Fev 1 ;
+          :Mar 1 ;
+          :Abr 1 ;
+          :Mai 0 ;
+          :Jun 0 ;
+          :Jul 0 ;
+          :Ago 0 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaR
+:mapaR rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :R ;
+          :Jan 0 ;
+          :Fev 0 ;
+          :Mar 0 ;
+          :Abr 0 ;
+          :Mai 0 ;
+          :Jun 0 ;
+          :Jul 0 ;
+          :Ago 0 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaG
+:mapaG rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :G ;
+          :Jan 1 ;
+          :Fev 1 ;
+          :Mar 1 ;
+          :Abr 0 ;
+          :Mai 0 ;
+          :Jun 0 ;
+          :Jul 0 ;
+          :Ago 0 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaJ
+:mapaJ rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :J ;
+          :Jan 1 ;
+          :Fev 1 ;
+          :Mar 1 ;
+          :Abr 0 ;
+          :Mai 0 ;
+          :Jun 0 ;
+          :Jul 0 ;
+          :Ago 0 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaN
+:mapaN rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :N ;
+          :Jan 1 ;
+          :Fev 1 ;
+          :Mar 1 ;
+          :Abr 1 ;
+          :Mai 0 ;
+          :Jun 0 ;
+          :Jul 0 ;
+          :Ago 0 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaQ
+:mapaQ rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :Q ;
+          :Jan 1 ;
+          :Fev 1 ;
+          :Mar 1 ;
+          :Abr 1 ;
+          :Mai 0 ;
+          :Jun 0 ;
+          :Jul 0 ;
+          :Ago 0 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaA
+:mapaA rdf:type owl:NamedIndividual ,
+          :MapaPagamento ;
+          :temFraçao :A ;
+          :Jan 0 ;
+          :Fev 0 ;
+          :Mar 0 ;
+          :Abr 0 ;
+          :Mai 0 ;
+          :Jun 0 ;
+          :Jul 0 ;
+          :Ago 0 ;
+          :Set 0 ;
+          :Out 0 ;
+          :Nov 0 ;
+          :Dez 0 .
+
+

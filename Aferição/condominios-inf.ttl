@@ -1,0 +1,862 @@
+@prefix : <http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/joaop/ontologies/2021/3/condominios> .
+
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#eFraçaoDe
+:eFraçaoDe rdf:type owl:ObjectProperty ;
+           owl:inverseOf :temFraçao .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#estaAssociada
+:estaAssociada rdf:type owl:ObjectProperty ;
+               owl:inverseOf :estaAssociado .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#estaAssociado
+:estaAssociado rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#temFraçao
+:temFraçao rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Abr
+:Abr rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Ago
+:Ago rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Data
+:Data rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Descricao
+:Descricao rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Dez
+:Dez rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Entidade
+:Entidade rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Fev
+:Fev rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Jan
+:Jan rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Jul
+:Jul rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Jun
+:Jun rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Mai
+:Mai rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Mar
+:Mar rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Nov
+:Nov rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Out
+:Out rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Set
+:Set rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Tipo
+:Tipo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Valor
+:Valor rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#descrição
+:descrição rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mensalidade
+:mensalidade rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#permilagem
+:permilagem rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Arrendatario
+:Arrendatario rdf:type owl:Class ;
+              rdfs:subClassOf :Pessoa .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Fraçao
+:Fraçao rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#LivroReceitas
+:LivroReceitas rdf:type owl:Class ;
+               rdfs:subClassOf :ObjetoGestao .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#MapaPagamento
+:MapaPagamento rdf:type owl:Class ;
+               rdfs:subClassOf :ObjetoGestao .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#ObjetoGestao
+:ObjetoGestao rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Pessoa
+:Pessoa rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Proprietario
+:Proprietario rdf:type owl:Class ;
+              rdfs:subClassOf :Pessoa .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#A
+:A rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaA ;
+   :descrição "Loja" ;
+   :permilagem 50 ,
+               6.06 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#F
+:F rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaF ;
+   :descrição "1º Dto" ;
+   :mensalidade 36.45 ;
+   :permilagem 24 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#G
+:G rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaG ;
+   :descrição "1º Esq" ;
+   :mensalidade 51.63 ;
+   :permilagem 34 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#H
+:H rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaH ;
+   :descrição "2º Dto" ;
+   :mensalidade 36.45 ;
+   :permilagem 24 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#I
+:I rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaI ;
+   :descrição "3º Dto" ;
+   :mensalidade 36.45 ;
+   :permilagem 24 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#J
+:J rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaJ ;
+   :descrição "3º Esq" ;
+   :mensalidade 51.63 ;
+   :permilagem 34 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#L
+:L rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaL ;
+   :descrição "4º Dto" ;
+   :mensalidade 36.45 ;
+   :permilagem 24 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#M
+:M rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaM ;
+   :descrição "5º Dto" ;
+   :mensalidade 36.45 ;
+   :permilagem 24 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#N
+:N rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaN ;
+   :descrição "5º Esq" ;
+   :mensalidade 51.63 ;
+   :permilagem 34 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#O
+:O rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaO ;
+   :descrição "6º Dto" ;
+   :mensalidade 36.45 ;
+   :permilagem 24 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#P
+:P rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaP ;
+   :descrição "7º Dto" ;
+   :mensalidade 36.45 ;
+   :permilagem 24 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#Q
+:Q rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaQ ;
+   :descrição "7º Esq" ;
+   :mensalidade 51.63 ;
+   :permilagem 34 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#R
+:R rdf:type owl:NamedIndividual ,
+            :Fraçao ;
+   :eFraçaoDe :mapaR ;
+   :descrição "8º Dto" ;
+   :mensalidade 36.45 ;
+   :permilagem 24 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaA
+:mapaA rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :A ;
+       :Abr 0 ;
+       :Ago 0 ;
+       :Dez 0 ;
+       :Fev 0 ;
+       :Jan 0 ;
+       :Jul 0 ;
+       :Jun 0 ;
+       :Mai 0 ;
+       :Mar 0 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaF
+:mapaF rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :F ;
+       :Abr 1 ;
+       :Ago 0 ;
+       :Dez 0 ;
+       :Fev 1 ;
+       :Jan 1 ;
+       :Jul 0 ;
+       :Jun 0 ;
+       :Mai 0 ;
+       :Mar 1 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaG
+:mapaG rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :G ;
+       :Abr 0 ;
+       :Ago 0 ;
+       :Dez 0 ;
+       :Fev 1 ;
+       :Jan 1 ;
+       :Jul 0 ;
+       :Jun 0 ;
+       :Mai 0 ;
+       :Mar 1 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaH
+:mapaH rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :H ;
+       :Abr 0 ;
+       :Ago 0 ;
+       :Dez 0 ;
+       :Fev 0 ;
+       :Jan 0 ;
+       :Jul 0 ;
+       :Jun 0 ;
+       :Mai 0 ;
+       :Mar 0 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaI
+:mapaI rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :I ;
+       :Abr 1 ;
+       :Ago 1 ;
+       :Dez 1 ;
+       :Fev 1 ;
+       :Jan 1 ;
+       :Jul 1 ;
+       :Jun 1 ;
+       :Mai 1 ;
+       :Mar 1 ;
+       :Nov 1 ;
+       :Out 1 ;
+       :Set 1 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaJ
+:mapaJ rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :J ;
+       :Abr 0 ;
+       :Ago 0 ;
+       :Dez 0 ;
+       :Fev 1 ;
+       :Jan 1 ;
+       :Jul 0 ;
+       :Jun 0 ;
+       :Mai 0 ;
+       :Mar 1 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaL
+:mapaL rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :L ;
+       :Abr 1 ;
+       :Ago 1 ;
+       :Dez 1 ;
+       :Fev 1 ;
+       :Jan 1 ;
+       :Jul 1 ;
+       :Jun 1 ;
+       :Mai 1 ;
+       :Mar 1 ;
+       :Nov 1 ;
+       :Out 1 ;
+       :Set 1 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaM
+:mapaM rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :M ;
+       :Abr 1 ;
+       :Ago 0 ;
+       :Dez 0 ;
+       :Fev 1 ;
+       :Jan 1 ;
+       :Jul 0 ;
+       :Jun 1 ;
+       :Mai 1 ;
+       :Mar 1 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaN
+:mapaN rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :N ;
+       :Abr 1 ;
+       :Ago 0 ;
+       :Dez 0 ;
+       :Fev 1 ;
+       :Jan 1 ;
+       :Jul 0 ;
+       :Jun 0 ;
+       :Mai 0 ;
+       :Mar 1 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaO
+:mapaO rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :O ;
+       :Abr 1 ;
+       :Ago 1 ;
+       :Dez 0 ;
+       :Fev 1 ;
+       :Jan 1 ;
+       :Jul 1 ;
+       :Jun 1 ;
+       :Mai 1 ;
+       :Mar 1 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaP
+:mapaP rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :P ;
+       :Abr 1 ;
+       :Ago 0 ;
+       :Dez 0 ;
+       :Fev 1 ;
+       :Jan 1 ;
+       :Jul 0 ;
+       :Jun 0 ;
+       :Mai 0 ;
+       :Mar 1 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaQ
+:mapaQ rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :Q ;
+       :Abr 1 ;
+       :Ago 0 ;
+       :Dez 0 ;
+       :Fev 1 ;
+       :Jan 1 ;
+       :Jul 0 ;
+       :Jun 0 ;
+       :Mai 0 ;
+       :Mar 1 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#mapaR
+:mapaR rdf:type owl:NamedIndividual ,
+                :MapaPagamento ,
+                :ObjetoGestao ;
+       :temFraçao :R ;
+       :Abr 0 ;
+       :Ago 0 ;
+       :Dez 0 ;
+       :Fev 0 ;
+       :Jan 0 ;
+       :Jul 0 ;
+       :Jun 0 ;
+       :Mai 0 ;
+       :Mar 0 ;
+       :Nov 0 ;
+       :Out 0 ;
+       :Set 0 .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#001
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#001> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-01-04" ;
+                                                                     :Descricao "ManutenÃ§Ã£o da conta" ;
+                                                                     :Entidade "CGD" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "7.28" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#002
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#002> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-01-06" ;
+                                                                     :Descricao "Janeiro" ;
+                                                                     :Entidade "7Âº Esq" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "64.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#003
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#003> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-01-06" ;
+                                                                     :Descricao "Abril a Dezembro de 2019" ;
+                                                                     :Entidade "2Âº Dto" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "406.62" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#004
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#004> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-01-08" ;
+                                                                     :Descricao "Luz" ;
+                                                                     :Entidade "EDP" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "222.65" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#005
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#005> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-01-16" ;
+                                                                     :Descricao "Janeiro" ;
+                                                                     :Entidade "7Âº Dto" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "45.18" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#006
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#006> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-02-01" ;
+                                                                     :Descricao "ManutenÃ§Ã£o da conta" ;
+                                                                     :Entidade "CGD" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "7.28" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#007
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#007> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-02-04" ;
+                                                                     :Descricao "Fevereiro" ;
+                                                                     :Entidade "5Âº Esq" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "64.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#008
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#008> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-02-06" ;
+                                                                     :Descricao "Fevereiro" ;
+                                                                     :Entidade "7Âº Esq" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "64.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#009
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#009> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-01-20" ;
+                                                                     :Descricao "ManutenÃ§Ã£o dos elevadores: 1Âº trimestre" ;
+                                                                     :Entidade "Kone" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "439.77" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#010
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#010> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-02-12" ;
+                                                                     :Descricao "Janeiro, Fevereiro e MarÃ§o" ;
+                                                                     :Entidade "1Âº e 3Âº Esq" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "384.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#011
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#011> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-02-20" ;
+                                                                     :Descricao "Fevereiro" ;
+                                                                     :Entidade "7Âº Dto" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "45.18" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#012
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#012> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-02-24" ;
+                                                                     :Descricao "Concerto do trinco da porta" ;
+                                                                     :Entidade "Serralheiro" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "20.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#013
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#013> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-02-24" ;
+                                                                     :Descricao "InspeÃ§Ã£o dos elevadores" ;
+                                                                     :Entidade "CMB" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "174.30" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#014
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#014> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-02-24" ;
+                                                                     :Descricao "Acertos: Janeiro, Fevereiro, MarÃ§o, Abril e 13.58 de Maio" ;
+                                                                     :Entidade "1Âº Dto" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "194.30" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#015
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#015> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-03-11" ;
+                                                                     :Descricao "Janeiro a Junho" ;
+                                                                     :Entidade "5Âº Dto" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "271.08" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#016
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#016> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-03-11" ;
+                                                                     :Descricao "ReparaÃ§Ã£o das fachadas" ;
+                                                                     :Entidade "PluriRapel" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "1655.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#017
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#017> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-02-26" ;
+                                                                     :Descricao "MarÃ§o" ;
+                                                                     :Entidade "5Âº Esq" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "64.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#018
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#018> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-02-29" ;
+                                                                     :Descricao "Janeiro a Dezembro" ;
+                                                                     :Entidade "3Âº Dto" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "542.16" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#019
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#019> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-03-04" ;
+                                                                     :Descricao "Luz" ;
+                                                                     :Entidade "EDP" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "236.59" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#020
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#020> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-03-06" ;
+                                                                     :Descricao "MarÃ§o" ;
+                                                                     :Entidade "7Âº Esq" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "64.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#021
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#021> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-03-07" ;
+                                                                     :Descricao "ManutenÃ§Ã£o da conta" ;
+                                                                     :Entidade "CGD" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "7.28" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#022
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#022> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-03-15" ;
+                                                                     :Descricao "MarÃ§o" ;
+                                                                     :Entidade "7Âº Dto" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "45.18" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#023
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#023> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-03-30" ;
+                                                                     :Descricao "Abril " ;
+                                                                     :Entidade "5Âº Esq" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "64.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#024
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#024> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-04-04" ;
+                                                                     :Descricao "ManutenÃ§Ã£o da conta" ;
+                                                                     :Entidade "CGD" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "7.28" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#025
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#025> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-04-06" ;
+                                                                     :Descricao "Abril" ;
+                                                                     :Entidade "7Âº Esq" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "64.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#026
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#026> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-04-07" ;
+                                                                     :Descricao "Abril a Agosto" ;
+                                                                     :Entidade "6Âº Dto" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "225.90" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#027
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#027> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-04-14" ;
+                                                                     :Descricao "Abril" ;
+                                                                     :Entidade "7Âº Dto" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "45.18" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#028
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#028> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-04-15" ;
+                                                                     :Descricao "Luz Comum" ;
+                                                                     :Entidade "Vizinhos" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "207.98" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#029
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#029> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-04-15" ;
+                                                                     :Descricao "Limpeza 2020" ;
+                                                                     :Entidade "Limpeza" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "1080.00" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#030
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#030> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-04-15" ;
+                                                                     :Descricao "Janeiro a Dezembro" ;
+                                                                     :Entidade "4Âº Dto" ;
+                                                                     :Tipo "Receita" ;
+                                                                     :Valor "542.16" .
+
+
+###  http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#031
+<http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#031> rdf:type owl:NamedIndividual ,
+                                                                              :LivroReceitas ,
+                                                                              :ObjetoGestao ;
+                                                                     :Data "2020-04-01" ;
+                                                                     :Descricao "ManutenÃ§Ã£o dos elevadores: 2Âº trimestre" ;
+                                                                     :Entidade "Kone" ;
+                                                                     :Tipo "Despesa" ;
+                                                                     :Valor "439.77" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

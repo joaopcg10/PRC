@@ -1,0 +1,84 @@
+1. Que entidades (receitas e despesas) estão referenciadas na ontologia?
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#>
+
+SELECT * WHERE {
+    ?s a :LivroReceitas .
+    ?s :Entidade ?name .
+}
+
+2. Que frações não pagaram o mês de Abril de 2020?
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#>
+
+SELECT ?frac WHERE {
+    ?s a :MapaPagamento .
+    ?s :temFraçao ?frac .
+    filter exists { ?s :Abr 1 }
+}
+
+3. Para as despesas, qual o montante por entidade já dispendido?
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#>
+
+SELECT ?ent (SUM(xsd:decimal(?valor)) as ?total) WHERE {
+    ?s a :LivroReceitas .
+    ?s :Valor ?valor .
+    ?s :Entidade ?ent .
+}
+GROUP BY(?ent)
+
+4. 
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (SUM(?ntot) as ?tot) WHERE {
+    ?s a :MapaPagamento .
+    ?s :temFraçao ?frac .
+    ?s :Jan ?jan .
+    ?s :Fev ?fev .
+    ?s :Mar ?mar .
+    ?s :Abr ?abr .
+    ?s :Mai ?mai .
+    ?s :Jun ?jun .
+    ?s :Jul ?jul .
+    ?s :Ago ?ago .
+    ?s :Set ?set .
+    ?s :Out ?out .
+    ?s :Nov ?nov .
+    ?s :Dez ?dez .
+    BIND(?jan + ?fev + ?mar + ?abr + ?mai + ?jun + ?jul + ?ago + ?set + ?out + ?nov + ?dez AS ?total)
+    ?frac :mensalidade ?mens .
+    BIND(?total * ?mens AS ?ntot)
+}
+
+
+5.
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/3/condominios#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?frac ?ntot WHERE {
+    ?s a :MapaPagamento .
+    ?s :temFraçao ?frac .
+    ?s :Jan ?jan .
+    ?s :Fev ?fev .
+    ?s :Mar ?mar .
+    ?s :Abr ?abr .
+    ?s :Mai ?mai .
+    ?s :Jun ?jun .
+    ?s :Jul ?jul .
+    ?s :Ago ?ago .
+    ?s :Set ?set .
+    ?s :Out ?out .
+    ?s :Nov ?nov .
+    ?s :Dez ?dez .
+    BIND(?jan + ?fev + ?mar + ?abr + ?mai + ?jun + ?jul + ?ago + ?set + ?out + ?nov + ?dez AS ?total)
+    ?frac :mensalidade ?mens .
+    BIND(?total * ?mens AS ?ntot)
+}
+
+
+

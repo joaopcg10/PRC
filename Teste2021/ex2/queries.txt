@@ -1,0 +1,73 @@
+1.
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+CONSTRUCT {
+    ?filho1 :eIrmaoDe ?filho2 .
+    ?filho2 :eIrmaoDe ?filho1 .
+} WHERE {
+    ?filho1 :temProgenitor ?progenitor.
+    ?filho2 :temProgenitor ?progenitor.
+}
+
+
+2.
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+CONSTRUCT {
+    ?bisavo :eBisavoDe ?filho .
+    ?filho :eBisnetoDe ?bisavo .
+} WHERE {
+    ?filho :temProgenitor ?pai .
+    ?pai :temProgenitor ?avo .
+    ?avo :temProgenitor ?bisavo .
+}
+
+
+3.
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+CONSTRUCT {
+    ?pai :temDescendente ?filho .
+    ?filho :eDescendenteDe ?pai .
+} WHERE {
+	?filho :temProgenitor* ?pai .
+}
+
+
+4.
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+CONSTRUCT {
+    ?primo1 :ePrimoDe ?primo2 .
+    ?primo2 :ePrimoDe ?primo1 .
+} WHERE {
+    ?primo1 :temProgenitor ?pai1 .
+    ?pai1 :temProgenitor ?progenitor .
+    ?pai2 :temProgenitor ?progenitor .
+    ?primo2 :temProgenitor ?pai2 .
+}
+
+5.
+Para acrescentar o sexo feminino:
+
+CONSTRUCT {
+    ?mae :eDoSexo "Feminino" .
+} WHERE {
+	?filho :temMae ?mae .
+}
+
+Para acrescentar o sexo masculino:
+CONSTRUCT {
+    ?pai :eDoSexo "Masculino" .
+} WHERE {
+	?filho :temPai ?pai .
+}
+
+6.
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+CONSTRUCT {
+    :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom ?individuo .
+} WHERE {
+	:José_Carlos_Leite_Ramalho_1967 ?relaçao ?individuo .
+}

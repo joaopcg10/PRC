@@ -1,0 +1,517 @@
+{
+  "head": {
+    "vars": [
+      "subject",
+      "predicate",
+      "object"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Margarida_Ribeiro_1954"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Otília_Araújo_Leite_1944"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Otília_Araújo_Leite_1944"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Margarida_Ribeiro_1954"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Feminino"
+        }
+      }
+    ]
+  }
+}

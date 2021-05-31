@@ -1,0 +1,1413 @@
+{
+  "head": {
+    "vars": [
+      "subject",
+      "predicate",
+      "object"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#TransitiveProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#TransitiveProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#TransitiveProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#TransitiveProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#domain"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#domain"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#domain"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#domain"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#range"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#range"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#range"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#range"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#equivalentProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#equivalentProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#equivalentProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#equivalentProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#SymmetricProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#SymmetricProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#SymmetricProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#SymmetricProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#equivalentClass"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#equivalentClass"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#equivalentClass"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#equivalentClass"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://proton.semanticweb.org/protonsys#transitiveOver"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://proton.semanticweb.org/protonsys#transitiveOver"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://proton.semanticweb.org/protonsys#transitiveOver"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://proton.semanticweb.org/protonsys#transitiveOver"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#inverseOf"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#inverseOf"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#inverseOf"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#inverseOf"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#Class"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#Class"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#Class"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#Class"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#Datatype"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#Datatype"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#Datatype"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#Datatype"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#differentFrom"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#differentFrom"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#differentFrom"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#differentFrom"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eMaeDe"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eMaeDe"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eMaeDe"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eMaeDe"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eProgenitorDe"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eProgenitorDe"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eProgenitorDe"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eProgenitorDe"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temMae"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temMae"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temMae"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temMae"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#FunctionalProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#FunctionalProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#FunctionalProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#FunctionalProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#ePaide"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#ePaide"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#ePaide"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#ePaide"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temPai"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temPai"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temPai"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temPai"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temProgenitor"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temProgenitor"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temProgenitor"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temProgenitor"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Pessoa"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Pessoa"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Pessoa"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Pessoa"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#topObjectProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#topObjectProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#topObjectProperty"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#topObjectProperty"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Abílio_da_Silva_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Abílio_da_Silva_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Abílio_da_Silva_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Abílio_da_Silva_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#NamedIndividual"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.w3.org/2002/07/owl#NamedIndividual"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Albina_Esteves_de_Araújo_1910"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Albina_Esteves_de_Araújo_1910"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Albina_Esteves_de_Araújo_1910"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Albina_Esteves_de_Araújo_1910"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Margarida_Ribeiro_1954"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#temDescendente"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Margarida_Ribeiro_1954"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Margarida_Ribeiro_1954"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDescendenteDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Margarida_Ribeiro_1954"
+        }
+      }
+    ]
+  }
+}

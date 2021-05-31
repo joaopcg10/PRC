@@ -1,0 +1,63 @@
+1.
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/4/emd#>
+
+SELECT (COUNT(?id) as ?total) WHERE {
+    ?id a :EMD .
+}
+
+
+2.
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/4/emd#>
+
+SELECT (COUNT(?id) as ?total) WHERE {
+    ?id a :EMD ;
+        :resultado "True" .
+}
+
+
+3.
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/4/emd#>
+
+SELECT ?genero (COUNT(?genero) as ?count) WHERE {
+    ?id a :EMD ;
+        :relativoA ?personid .
+    ?personid a :Atleta ;
+              :genero ?genero .
+        
+} GROUPBY (?genero)
+
+
+4.
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/4/emd#>
+
+SELECT ?modalidade (COUNT(?modalidade) as ?count) WHERE {
+    ?id a :EMD ;
+        :referenteA ?modalidade .
+        
+} GROUPBY (?modalidade)
+
+
+5.
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/4/emd#>
+
+SELECT (COUNT(?personid) AS ?total) WHERE {
+    ?id a :EMD ;
+        :relativoA ?personid .
+    
+    ?personid a :Atleta ;
+              :eAtletaEm :GDGoma
+    
+}
+
+
+6.
+PREFIX : <http://www.semanticweb.org/joaop/ontologies/2021/4/emd#>
+
+SELECT (COUNT(?personid) AS ?total) WHERE {
+    ?id a :EMD ;
+        :relativoA ?personid ;
+        :referenteA :Triatlo .
+    
+    ?personid a :Atleta ;
+              :genero "F" .
+}

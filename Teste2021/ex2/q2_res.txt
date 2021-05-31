@@ -1,0 +1,1413 @@
+{
+  "head": {
+    "vars": [
+      "subject",
+      "predicate",
+      "object"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_dos_Santos_Ramalho_"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_dos_Santos_Ramalho_"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisavoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_dos_Santos_Ramalho_"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_dos_Santos_Ramalho_"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eBisnetoDe"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        }
+      }
+    ]
+  }
+}

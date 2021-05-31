@@ -1,0 +1,517 @@
+{
+  "head": {
+    "vars": [
+      "subject",
+      "predicate",
+      "object"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://prc.di.uminho.pt/2021/myfamily#eDoSexo"
+        },
+        "object": {
+          "type": "literal",
+          "value": "Masculino"
+        }
+      }
+    ]
+  }
+}
